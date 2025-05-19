@@ -4,11 +4,10 @@ Term2d is a terminal-based 2D graphics engine with basic 3D rendering support. T
 
 ## Features
 
-- **Terminal Rendering:** Draws pixels using a custom pixel buffer ([`PixelBuffer`](c:\Users\NatasNefiodovas\Desktop\.private\Programs\2dpy\src\render\pixelbuffer.js)).
-- **2D Rasterization:** Renders triangles and lines using the rasteriser ([`Rasteriser`](c:\Users\NatasNefiodovas\Desktop\.private\Programs\2dpy\src\render\rasteriser.js)).
-- **3D Projection:** Implements basic cube rendering via orthographic projection ([`Rasteriser3D`](c:\Users\NatasNefiodovas\Desktop\.private\Programs\2dpy\src\render\rasteriser3d.js)).
-- **Math Utilities:** Provides vector math for 2D and 3D operations ([`Vector2`](c:\Users\NatasNefiodovas\Desktop\.private\Programs\2dpy\src\math\Vector2.js), [`Vector3`](c:\Users\NatasNefiodovas\Desktop\.private\Programs\2dpy\src\math\Vector3.js)) and color handling ([`Color`](c:\Users\NatasNefiodovas\Desktop\.private\Programs\2dpy\src\math\Color.js)).
-- **Procedural Effects:** Uses Perlin noise (via the `perlin` package) to generate dynamic textures.
+- **Terminal Rendering:** Draws pixels using a custom pixel buffer.
+- **2D Rasterization:** Renders triangles and lines using the rasteriser.
+- **3D Projection:** Implements basic cube rendering via orthographic projection .
+- **Math Utilities:** Provides vector math for 2D and 3D operations: `Vector2`, `Vector3` and color handling (`Color`).
 
 ## Getting Started
 
@@ -30,7 +29,7 @@ Term2d is a terminal-based 2D graphics engine with basic 3D rendering support. T
     npm run run
     ```
 
-This executes [test.js](c:\Users\NatasNefiodovas\Desktop\.private\Programs\2dpy\test.js), which demonstrates the engine's capabilities.
+This executes test.js, which demonstrates the engine's capabilities.
 
 ## Controls
 
@@ -41,14 +40,14 @@ This executes [test.js](c:\Users\NatasNefiodovas\Desktop\.private\Programs\2dpy\
 
 - **src/**
   - **math/**: Vector and color utilities.
-    - [`Vector2.js`](c:\Users\NatasNefiodovas\Desktop\.private\Programs\2dpy\src\math\Vector2.js)
-    - [`Vector3.js`](c:\Users\NatasNefiodovas\Desktop\.private\Programs\2dpy\src\math\Vector3.js)
-    - [`Color.js`](c:\Users\NatasNefiodovas\Desktop\.private\Programs\2dpy\src\math\Color.js)
+    - `Vector2.js`
+    - `Vector3.js`
+    - `Color.js`
   - **render/**: Rendering modules.
-    - [`pixelbuffer.js`](c:\Users\NatasNefiodovas\Desktop\.private\Programs\2dpy\src\render\pixelbuffer.js)
-    - [`rasteriser.js`](c:\Users\NatasNefiodovas\Desktop\.private\Programs\2dpy\src\render\rasteriser.js)
-    - [`rasteriser3d.js`](c:\Users\NatasNefiodovas\Desktop\.private\Programs\2dpy\src\render\rasteriser3d.js)
-  - [`index.js`](c:\Users\NatasNefiodovas\Desktop\.private\Programs\2dpy\src\index.js): Engine setup and main loop.
+    - `pixelbuffer.js`
+    - `rasteriser.js`
+    - `rasteriser3d.js`
+  - `index.js`: Engine setup and main loop.
 - **test.js:** Entry point for running the demo.
 - **package.json:** Project configuration and dependency management.
 - **.gitignore:** Lists files/directories to ignore (e.g., `node_modules`).
@@ -79,7 +78,7 @@ engine.run();
 
 # Documentation
 
-
+see 
 
 ## License
 
