@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "test.js",
   "scripts": {
-    "run": "node test.js"
+    "test": "node ./examples/test.js"
   },
   "author": "mrurbo",
   "license": "ISC",

@@ -26,7 +26,7 @@ Term2d is a terminal-based 2D graphics engine with basic 3D rendering support. T
 2. Run the engine demo:
 
     ```sh
-    npm run run
+    npm run test
     ```
 
 This executes test.js, which demonstrates the engine's capabilities.
