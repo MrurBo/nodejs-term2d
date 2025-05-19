@@ -1,0 +1,34 @@
+{
+  "name": "@mrurbo/term2d",
+  "version": "1.0.0",
+  "main": "test.js",
+  "scripts": {
+    "run": "node test.js"
+  },
+  "author": "mrurbo",
+  "license": "ISC",
+  "description": "A versitile 2d game engine for the terminal.",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^8.3.1",
+    "perlin": "^1.0.0"
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrurBo/nodejs-term2d.git"
+  },
+  "keywords": [
+    "game engine",
+    "2d",
+    "terminal",
+    "rendering"
+  ],
+  "bugs": {
+    "url": "https://github.com/MrurBo/nodejs-term2d/issues"
+  },
+  "homepage": "https://github.com/MrurBo/nodejs-term2d#readme"
+}
