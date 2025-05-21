@@ -17,23 +17,16 @@ Term2d is a terminal-based 2D graphics engine with basic 3D rendering support. T
 
 ### Installation
 
-1. Install the required dependencies:
+1. Install the package:
 
     ```sh
-    npm install
+    npm install @mrurbo/term2d
     ```
 
-2. Run the engine demo:
-
-    ```sh
-    npm run test
-    ```
-
-This executes test.js, which demonstrates the engine's capabilities.
+You can see the example in examples/test.js
 
 ## Controls
 
-- **W/A/S/D:** Move the viewport.
 - **Escape:** Exit the application.
 
 ## Project Structure
@@ -48,9 +41,6 @@ This executes test.js, which demonstrates the engine's capabilities.
     - `rasteriser.js`
     - `rasteriser3d.js`
   - `index.js`: Engine setup and main loop.
-- **test.js:** Entry point for running the demo.
-- **package.json:** Project configuration and dependency management.
-- **.gitignore:** Lists files/directories to ignore (e.g., `node_modules`).
 
 ## Example Code
 
