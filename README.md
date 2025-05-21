@@ -59,9 +59,7 @@ Below is an example demonstrating how to create an engine instance, add shapes, 
 ````javascript
 // filepath: c:\Users\NatasNefiodovas\Desktop\.private\Programs\2dpy\readme.md
 // Example usage of Term2d engine
-const { Engine } = require('./src/index.js');
-const { Vector2 } = require('./src/math/Vector2.js');
-const { Color } = require('./src/math/color.js');
+const { Engine, Vector2, Color} = require('@mrurbo/term2d');
 
 const engine = new Engine(60, 30, 30, (tick, dt) => {
     // Draw a moving triangle that shifts based on tick count

@@ -38,6 +38,19 @@ const Rasteriser = {
             }
         }
     },
+
+    drawRect(pixelbuffer, x, y, width, height, color) {
+        const v0 = new Vector2(x, y);
+        const v1 = new Vector2(x + width, y);
+        const v2 = new Vector2(x + width, y + height);
+        const v3 = new Vector2(x, y + height);
+
+        this.line(pixelbuffer, v0, v1, color);
+        this.line(pixelbuffer, v1, v2, color);
+        this.line(pixelbuffer, v2, v3, color);
+        this.line(pixelbuffer, v3, v0, color);
+    }
+
     _triangleArea(v0, v1, v2) {
         return Math.abs((v0.x * (v1.y - v2.y) + v1.x * (v2.y - v0.y) + v2.x * (v0.y - v1.y)) / 2.0);
     }

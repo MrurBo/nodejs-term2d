@@ -33,6 +33,7 @@ class PixelBuffer {
         /* move cursor to the top-left without clearing the screen to reduce flicker */
         
         process.stdout.write('\x1b[H');
+        process.stderr.write('\x1b[?25l')
         let output = '';
         for (let y = 0; y < this.height; y = y + 2  ) {
             for (let x = 0; x < this.width; x++) {
@@ -60,6 +61,7 @@ class PixelBuffer {
             output += '\n';
         }
         console.log(output);
+        process.stderr.write('\x1b[?25h')
     }
 }
 

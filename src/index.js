@@ -66,7 +66,8 @@ class Engine {
 
     setPixel(x, y, color) {
         if (x >= this.width || y >= this.height || x < 0 || y < 0) {
-            throw new Error('Index out of bounds');
+            console.warn("Pixel out of bounds: ", x, y);
+            return;
         }
         this.buffer.setPixel(x, y, color);
     }

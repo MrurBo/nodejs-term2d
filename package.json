@@ -1,18 +1,13 @@
 {
   "name": "@mrurbo/term2d",
   "version": "1.0.0",
-  "main": "test.js",
+  "main": "./src/index.js",
   "scripts": {
     "test": "node ./examples/test.js"
   },
   "author": "mrurbo",
   "license": "ISC",
   "description": "A versitile 2d game engine for the terminal.",
-  "dependencies": {
-    "bindings": "^1.5.0",
-    "node-addon-api": "^8.3.1",
-    "perlin": "^1.0.0"
-  },
   "directories": {
     "example": "examples"
   },
