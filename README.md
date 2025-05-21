@@ -57,7 +57,6 @@ This executes test.js, which demonstrates the engine's capabilities.
 Below is an example demonstrating how to create an engine instance, add shapes, and run the application:
 
 ````javascript
-// filepath: c:\Users\NatasNefiodovas\Desktop\.private\Programs\2dpy\readme.md
 // Example usage of Term2d engine
 const { Engine, Vector2, Color} = require('@mrurbo/term2d');
 
